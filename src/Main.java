@@ -9,7 +9,7 @@ public class Main {
         Service cloud = new CloudStorageService("CloudBox", 102);
         Service consultation = new ConsultationService("MediTalk", 103);
 
-        Service[] services = {streaming, cloud, consultation};
+        Service[] services = { streaming, cloud, consultation };
 
         for (Service s : services)
             s.activateService();
